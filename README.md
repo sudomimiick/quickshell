@@ -18,7 +18,7 @@ else grows out of it as a panel and tucks back in.
 Monochrome with a few soft colours: lavender for "active", blue for connected,
 amber and rose when something needs you.
 
-
+![Uploading Screenshot_20261020_174634.png…]()
 
 To change how it looks or behaves — colours, sizes, the chibi, the bar's
 height, keys, wallpapers — see **[GUIDE.md](GUIDE.md)**.
@@ -83,6 +83,8 @@ closes it.
 
 **In the wallpaper picker:** ← → (or scroll) to choose, Enter or a click to set
 it, Esc to close.
+
+<img width="3840" height="2160" alt="Screenshot_20261020_175942" src="https://github.com/user-attachments/assets/b650308e-49c2-4fa0-81f1-c365374e2cef" />
 
 ## Settings
 
