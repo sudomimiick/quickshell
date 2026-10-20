@@ -18,7 +18,8 @@ else grows out of it as a panel and tucks back in.
 Monochrome with a few soft colours: lavender for "active", blue for connected,
 amber and rose when something needs you.
 
-![Uploading Screenshot_20261020_174634.png…]()
+<img width="3840" height="2160" alt="Screenshot_20261020_174634" src="https://github.com/user-attachments/assets/2d9b2e82-c821-40c2-a490-1423fdbb7789" />
+
 
 To change how it looks or behaves — colours, sizes, the chibi, the bar's
 height, keys, wallpapers — see **[GUIDE.md](GUIDE.md)**.
