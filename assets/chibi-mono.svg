@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 224" width="400" height="448">
+  <!-- An original little cat-eared hoodie kid, in greys to match the monochrome shell. -->
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e8e97"/>
+      <stop offset="1" stop-color="#4a4a52"/>
+    </linearGradient>
+    <linearGradient id="hood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a40"/>
+      <stop offset="1" stop-color="#26262b"/>
+    </linearGradient>
+    <radialGradient id="skin" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#e4e4e7"/>
+    </radialGradient>
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18181b"/>
+      <stop offset="0.6" stop-color="#3f3f46"/>
+      <stop offset="1" stop-color="#a1a1aa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- hoodie body -->
+  <path d="M62 150 Q100 140 138 150 L150 206 Q151 216 140 216 L60 216 Q49 216 50 206 Z" fill="url(#hood)"/>
+  <!-- sleeves + paws -->
+  <path d="M60 156 Q44 170 42 192 Q42 200 50 200 Q56 199 58 192 L64 168 Z" fill="url(#hood)"/>
+  <path d="M140 156 Q156 170 158 192 Q158 200 150 200 Q144 199 142 192 L136 168 Z" fill="url(#hood)"/>
+  <circle cx="50" cy="200" r="7" fill="#f4f4f5"/>
+  <circle cx="150" cy="200" r="7" fill="#f4f4f5"/>
+  <!-- pocket and drawstrings -->
+  <path d="M78 186 Q100 180 122 186 L118 204 Q100 208 82 204 Z" fill="#27272a" opacity="0.55"/>
+  <path d="M90 152 L88 172" stroke="#d4d4d8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 152 L112 172" stroke="#d4d4d8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="88" cy="174" r="3.2" fill="#d4d4d8"/>
+  <circle cx="112" cy="174" r="3.2" fill="#d4d4d8"/>
+
+  <!-- hair, back -->
+  <ellipse cx="100" cy="94" rx="76" ry="70" fill="url(#hair)"/>
+  <!-- cat ears -->
+  <path d="M38 52 Q44 14 60 8 Q70 6 84 36 Z" fill="url(#hair)"/>
+  <path d="M162 52 Q156 14 140 8 Q130 6 116 36 Z" fill="url(#hair)"/>
+  <path d="M50 44 Q54 24 62 20 Q68 20 74 38 Z" fill="#c4c4ca"/>
+  <path d="M150 44 Q146 24 138 20 Q132 20 126 38 Z" fill="#c4c4ca"/>
+
+  <!-- face -->
+  <ellipse cx="100" cy="104" rx="60" ry="54" fill="url(#skin)"/>
+
+  <!-- side locks -->
+  <path d="M44 92 Q36 120 46 146 Q52 132 54 112 Z" fill="url(#hair)"/>
+  <path d="M156 92 Q164 120 154 146 Q148 132 146 112 Z" fill="url(#hair)"/>
+
+  <!-- bangs: five locks with pointed tips -->
+  <path d="M38 98 C40 54 70 32 100 32 C130 32 160 54 162 98
+           Q152 92 147 79 Q143 92 134 99
+           Q126 90 123 75 Q118 90 110 97
+           Q104 86 100 72 Q96 86 90 97
+           Q82 90 77 75 Q74 92 66 99
+           Q57 92 53 79 Q48 92 38 98 Z" fill="url(#hair)"/>
+  <!-- shine on the hair -->
+  <path d="M70 46 Q84 38 98 38" stroke="#d4d4d8" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- eyes -->
+  <ellipse cx="76" cy="112" rx="11.5" ry="14.5" fill="url(#iris)"/>
+  <ellipse cx="124" cy="112" rx="11.5" ry="14.5" fill="url(#iris)"/>
+  <circle cx="71.5" cy="105" r="4.6" fill="#ffffff"/>
+  <circle cx="119.5" cy="105" r="4.6" fill="#ffffff"/>
+  <circle cx="80" cy="118" r="2.1" fill="#ffffff" opacity="0.9"/>
+  <circle cx="128" cy="118" r="2.1" fill="#ffffff" opacity="0.9"/>
+
+  <!-- blush -->
+  <ellipse cx="60" cy="130" rx="9" ry="5" fill="#a1a1aa" opacity="0.35"/>
+  <ellipse cx="140" cy="130" rx="9" ry="5" fill="#a1a1aa" opacity="0.35"/>
+
+  <!-- cat mouth -->
+  <path d="M91 129 Q95.5 134 100 129 Q104.5 134 109 129" stroke="#52525b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- star clip -->
+  <path d="M142 50 L145.2 57.4 L153.2 58 L147 63.2 L149 71 L142 66.8 L135 71 L137 63.2 L130.8 58 L138.8 57.4 Z" fill="#fafafa" stroke="#a1a1aa" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
