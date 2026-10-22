@@ -37,7 +37,7 @@ hyprlock and a polkit agent.
 
 ```sh
 git clone https://github.com/sudomimiick/quickshell.git
-cd YOUR-REPO
+cd quickshell
 ./install.sh
 ```
 
